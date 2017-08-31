@@ -1,0 +1,48 @@
+{
+  "name": "3amng",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-multer": "^1.0.2",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "lodash": "^4.17.4",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.1",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "pug": "^2.0.0-rc.1",
+    "sequelize": "^4.5.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "crypto": "^1.0.1",
+    "hashids": "^1.1.1",
+    "jsdoc": "^3.5.4",
+    "jsonwebtoken": "^7.4.2",
+    "koa-cors": "0.0.16",
+    "moment": "^2.18.1",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^1.8.1",
+    "objectid": "^3.2.1",
+    "request": "^2.81.0",
+    "retry-as-promised": "^2.3.0",
+    "sequelize": "^4.5.0",
+    "socket.io": "^2.0.3",
+    "websocket": "^1.0.24"
+  }
+}

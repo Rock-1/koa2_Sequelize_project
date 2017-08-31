@@ -1,0 +1,1 @@
+module.exports = ["/users/addUser","/users/login",'/users/addUser?time=1',]
