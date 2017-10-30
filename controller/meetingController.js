@@ -76,7 +76,7 @@ meetingController.prototype.createMeeting = async(ctx,next)=>{
         builder.options.rootName = 'param'
         var xml =  builder.buildObject(meeting);
         console.log(xml)
-        let info = await requestUtil.post('http://markettest.xuedianyun.com/3m/meeting/join_mtg.do',xml);
+        let info = await requestUtil.post('',xml);
         var jsonXml =  await requestUtil.json2xml(info);        
         console.log('json string',jsonXml)
         let backJsonMeeting ={
